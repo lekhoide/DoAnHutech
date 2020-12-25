@@ -1,0 +1,137 @@
+public long MaSuKien { get; set; }
+        public string AnhSuKien { get; set; }
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "*")]
+        public string TenSuKien { get; set; }
+        [Required(ErrorMessage = "*")]
+        public string LoaiSuKien { get; set; }
+        [StringLength(50, ErrorMessage = "Tối đa 50 ký tự")]
+        public string TenDiaDiem { get; set; }
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        public string DiaChi { get; set; }
+        public byte MaQuanHuyen { get; set; }
+        public byte MaCoSo { get; set; }
+        [StringLength(20, ErrorMessage = "Tối đa 20 ký tự")]
+        public string Phong { get; set; }
+        [StringLength(4000, ErrorMessage = "Tối đa 4000 ký tự")]
+        public string ThongTinSuKien { get; set; }
+
+        [DataType(DataType.Date)]
+        //[DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        //public System.DateTime NgayBatDau { get; set; }
+        public DateTime NgayBatDau { get; set; }
+        ////public Nullable<System.DateTime> NgayBatDau { get; set; }
+
+        [DataType(DataType.Date)]
+        //[DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        //public System.DateTime NgayKetThuc { get; set; }
+        public DateTime NgayKetThuc { get; set; }
+        //public Nullable<System.DateTime> NgayKetThuc { get; set; }
+
+        //[ValidTime]
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
+        public System.TimeSpan ThoiGianBatDau { get; set; }
+
+        //[ValidTime]
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
+        public System.TimeSpan ThoiGianKetThuc { get; set; }
+
+        [DisplayFormat(DataFormatString = "{0:g}", ApplyFormatInEditMode = true)]
+        public Nullable<System.DateTime> NgayTaoSuKien { get; set; }
+        public string TenDangNhap { get; set; }
+
+        public virtual Admin Admin { get; set; }
+        public virtual CoSo CoSo { get; set; }
+        public virtual DanhMucQuanHuyen DanhMucQuanHuyen { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<BoPhan> BoPhans { get; set; }
+
+
+
+public byte MaBoPhan { get; set; }
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "*")]
+        public string TenBoPhan { get; set; }
+        public string LogoBoPhan { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<SuKien> SuKiens { get; set; }
+
+
+public byte MaCoSo { get; set; }
+        [StringLength(20, ErrorMessage = "Tối đa 20 ký tự")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "*")]
+        public string TenCoSo { get; set; }
+        [StringLength(256, ErrorMessage = "Tối đa 256 ký tự")]
+        public string DiaChiCoSo { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<SuKien> SuKiens { get; set; }
+
+ public byte MaQuanHuyen { get; set; }
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        public string TenQuanHuyen { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<SuKien> SuKiens { get; set; }
+
+
+1.Các nút thích và chia sẻ trên Facebook
+- Các nút thích và chia sẻ lấy được ko?
+
+2.Lấy được cái gì
+- List: lấy tên sự kiện, ảnh sự kiện
+- Sự kiện: Tên sự kiện, ngày tạo sự kiện, nút thích sự kiện Facebook, nút share sự kiện Facebook, lấy được file đính kèm
+
+
+public long MaSuKien { get; set; }
+        public string AnhSuKien { get; set; }
+
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "*")]
+        public string TenSuKien { get; set; }
+
+        [Required(ErrorMessage = "*")]
+        public string LoaiSuKien { get; set; }
+
+        [StringLength(50, ErrorMessage = "Tối đa 50 ký tự")]
+        public string TenDiaDiem { get; set; }
+
+        [StringLength(128, ErrorMessage = "Tối đa 128 ký tự")]
+        public string DiaChi { get; set; }
+        public byte MaQuanHuyen { get; set; }
+        public byte MaCoSo { get; set; }
+
+        [StringLength(20, ErrorMessage = "Tối đa 20 ký tự")]
+        public string Phong { get; set; }
+
+        [StringLength(4000, ErrorMessage = "Tối đa 4000 ký tự")]
+        public string ThongTinSuKien { get; set; }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public System.DateTime NgayBatDau { get; set; }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public System.DateTime NgayKetThuc { get; set; }
+
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
+        public System.TimeSpan ThoiGianBatDau { get; set; }
+
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
+        public System.TimeSpan ThoiGianKetThuc { get; set; }
+
+        [DisplayFormat(DataFormatString = "{0:g}", ApplyFormatInEditMode = true)]
+        public Nullable<System.DateTime> NgayTaoSuKien { get; set; }
+        public string TenDangNhap { get; set; }
+
+        public virtual Admin Admin { get; set; }
+        public virtual CoSo CoSo { get; set; }
+        public virtual DanhMucQuanHuyen DanhMucQuanHuyen { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<BoPhan> BoPhans { get; set; }
+
+        
