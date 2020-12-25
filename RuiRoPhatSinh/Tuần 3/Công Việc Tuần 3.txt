@@ -1,0 +1,12 @@
+Tâm
+1. Giao diện quản lý sự kiện (xem sự kiện)
+2. Giao diện tạo sự kiện, xóa sự kiện
+
+Đệ
+1. Đưa hệ thống lên Visual Studio 2017 : Done
+2. Code chức năng đăng nhập : Done
+3. Cập nhật lại đặc tả đề tài, đặc tả ERD
+4. Chỉnh sửa lại code thông báo lỗi
+5. Phân tích xem có nên thêm : mã hóa mật khẩu, lưu đăng nhập
+6. Cập nhật công nghệ mới về những vấn đề liên quan
+7. Viết hồ sơ thiết kế - cài đặt

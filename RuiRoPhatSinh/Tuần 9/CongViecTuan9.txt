@@ -1,0 +1,16 @@
+2/12/2019 - 4/12/2019 : Nộp báo cáo
+9/12/2019 - 15/12/2019 : Báo cáo
+
+- Chức năng tìm kiếm
+- Chức năng phân trang
+
+- Giao diện tạo sự kiện
+- Giao diện sửa sự kiện
+- Giao diện xóa sự kiện
+
+- CRUD Quản lý bộ phận
+- CRUD Quản lý cơ sở
+- CRUD Quản lý danh mục quận huyện
+
+- Ngày và giờ hiển thị lên giao diện
+- Sự kiện mới trong tuần hiện lên giao diện trang chủ người dùng

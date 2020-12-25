@@ -1,0 +1,9 @@
+1. Bảng TrongTruong và NgoaiTruong không cần thiết. Thay vào đó thay thành một thuộc tính Loại sự kiện trong bảng SuKien. Lý do : khi tìm kiếm chiếu 1 bảng thì dễ hơn
+
+2. Và những thuộc tính nằm trong hai bảng TrongTruong và NgoaiTruong thì chuyển qua bảng sự kiện. Và thêm một bảng địa điểm chi tiết. Có các thuộc tính : quận, huyện, phường, xã,..
+
+3.Bài toán : nếu một sự kiện tổ chức tại trường mà tổ chức bởi một công ty thì đây là sự kiện gì
+
+4. Tìm kiếm : sự kiện tại các quận. Cho các bạn sinh viên muốn tìm kiếm các sự kiện ngoài trường
+
+5. Cô chú ý về lấy dữ liệu tự dộng 

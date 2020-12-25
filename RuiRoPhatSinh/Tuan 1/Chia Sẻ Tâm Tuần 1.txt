@@ -1,0 +1,9 @@
+Quan hệ bao hàm là quan hệ giữa một khái niệm rộng hơn với một khái niệm hẹp hơn.
+Quan hệ tổng quát hóa là các lớp chia sẻ một số thuộc tính chung được nhóm lại với một lớp cha (Bottom up)
+Quan hệ mở rộng là quan hệ đến các chức năng khác
+
+- Trang chủ hiện các bảng sự kiện nổi bật, bảng sự kiện trong trường, bảng sự kiện ngoài trường, bảng sự kiện đề xuất.
+- Thanh tìm kiếm có tìm kiếm bộ phận, tìm kiếm cơ sở, tìm, tìm kiếm tên sự kiện.
+- Bảng sự kiện đề xuất người dùng sẽ không có sự kiện để hiện. Chỉ khi người dùng xem một sự kiện chi tiết thì bảng sự kiện đề xuất sẽ hiện lên các sự kiện liên quan.
+- Các sự kiện có thời gian cũ hơn thời gian hiện tại thì sẽ không hiện.
+

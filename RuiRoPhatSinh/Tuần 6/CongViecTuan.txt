@@ -1,0 +1,13 @@
+Chào cô đây là video Demo tuần 6,
+
+Dữ liệu đầu tiên được bôi đen là dữ liệu mẫu được nạp trên SQL để đối chiếu các dữ liệu sau này.
+
+Em đã làm được
+1. Chức năng tải ảnh, xem ảnh, sửa ảnh, xóa ảnh nằm trong function tạo sự kiện
+Giao diên này là list xem các sự kiện
+Vậy là chức năng rất OK
+2. Formart thời gian cho 4 thuộc tính : Ngày bắt đầu, ngày kết thúc, thời gian bắt đầu, thời gian kết thúc.
+
+Được format thành : dd/MM/yyyy - hh:MM
+
+Vậy đây chỉ là các chức năng nhỏ. Nhưng rất tốn nhiều thời gian tìm hiểu. Em xin hết

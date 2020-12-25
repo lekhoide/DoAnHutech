@@ -1,0 +1,4 @@
+1. Xem lại đuôi file như là .js, .css, .html
+2. Đặt biến cho CSS nên thêm một ký tự riêng cho khỏi nhầm lẫn của hệ thống
+3. Nên ký hiệu để dễ phân biệt
+4. Thêm nút quay lại cho giao diện login

@@ -1,0 +1,13 @@
+Tâm
+- Giao diện Đăng Nhập : Hoàn thành
+- Giao diện xem tất cả sự kiện của Admin : Chưa hoàn thành
+Lý do : đang tập trung làm đồ án môn Android nên không thể dành nhiều thời gian cho đồ án chuyên ngành
+
+Đệ
+- Thiết kế lại kiểu dữ liệu thuộc tính phần thời gian : chưa hoàn thành
+- Đặc tả mô hình ERD : hoàn thành
+- Test dữ liệu bằng lệnh SQL : chưa hoàn thành
+- Cài đặt hệ thống lên VisualStudio 2017 : chưa hoàn thành
+- Code chức năng đăng nhập : chưa hoàn thành
+Lý do: mất thời gian tìm hiểu SQL và chưa giải quyết bài toán đặt ra.
+

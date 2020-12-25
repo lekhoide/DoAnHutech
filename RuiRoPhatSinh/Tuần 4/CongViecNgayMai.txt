@@ -1,0 +1,11 @@
+QUẢN LÝ SỰ KIỆN
+1. Mã sự kiện : để đầu bảng, ẩn đi tiêu đề
+2. Tên sự kiện : null
+3. Thời gian bắt đầu : chỉnh về hệ số 12 giờ
+4. Thời gian kết thúc : chỉnh về hệ số 12 giờ
+5. Ngày bắt đầu : bỏ giờ và định dạng dd/mm/yyyy
+6. Ngày kết thúc : bỏ giờ và định dạng dd/mm/yyyy
+7. Nội dung sự kiện : ẩn thanh tiêu đề và nội dung
+8. Ảnh sự kiện : null
+9. Ngày tạo sự kiện : ẩn thanh tiêu đề và nội dung
+10. Tên đăng nhập : ẩn thanh thanh tiêu đề và nội dung

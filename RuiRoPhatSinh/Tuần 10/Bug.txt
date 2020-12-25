@@ -1,0 +1,2 @@
+1. Không thông báo ràng buộc thời gian bắt đầu không được chọn thời gian hiện tại đổ về.
+2. Ẩn mã Admin

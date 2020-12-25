@@ -1,0 +1,4 @@
+Khi chọn loại sự kiện trong trường thì hiểu là sự kiện được tổ chức tại trường. Suy ra sẽ hiện lên bảng cơ sở, có tên cơ sở, địa chỉ cơ sở và phòng tổ chức.
+
+Khi chọn loại sự kiện ngoài trường thì hiểu là sự kiện được tổ chức ngoài trường. Suy ra sẽ hiện lên bảng ..., có tên địa điểm, địa chỉ, tỉnh/thành, quận huyện.
+

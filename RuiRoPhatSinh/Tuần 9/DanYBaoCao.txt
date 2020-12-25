@@ -1,0 +1,24 @@
+Trang phụ bìa
+Lời cam đoan
+Mục lục
+Danh mục các bảng
+Danh mục các hình vẽ, đồ thị
+
+
+CHƯƠNG 1 : Tổng Quan
+Giới thiệu ngắn gọn về đề tài, tóm tắt lý thuyết, nghiên cứu trước đây liên quan đề tài (6-8 trang)
+Nhiệm vụ đồ án : lý do hình thành, ý nghĩa khoa học và thực tiễn, mục tiêu nghiên cứu đối tượng, phạm vị giới hạn (1-2 trang)
+Cấu trúc đồ án: tóm tắt các chương và từng chương (1 trang)
+
+CHƯƠNG 2 : Cơ Sở Lý Thuyết (15-25 trang với đồ án chuyên ngành): Khái niệm và phương pháp giải quyết vấn đề bao gồm
+ - Mô tả công nghệ, hệ thống, các ràng buộc
+ - Các giải pháp mới, mô hình toán, lý giải xây dựng mô hình
+
+CHƯƠNG 3 : Kết Quả Thực Nghiệm (3-10 trang với đồ án chuyên ngành): mô tả công việc thực nghiệm đề tài tiến hành
+ - Kết quả nghiên cứu lý thuyết
+ - Kết quả thực nghiệm
+ - Hồ sơ thiết kế
+ - Cài đặt
+ - Giao diện
+
+CHƯƠNG 4 : Kết luận và Kiến nghị (1-2 trang) : kết luận chung, khẳng định kết quả đạt được, đóng góp, đề xuất mới và kiến nghị.

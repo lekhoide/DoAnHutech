@@ -1,0 +1,25 @@
+1. CRUD Bộ Phận : chỉnh sửa bảng sự kiện có thuộc tính mã bộ phận. Edit bị lỗi
+2. Logo bộ phận : chỉnh sang string và chèn ảnh.
+
+1. Hệ thống :
+- Test hết các chức năng và ràng buộc
+- Ngày tạo sự kiện chưa getdate được
+- Chưa làm chức năng tìm kiếm
+- Chưa code mấy chức năng nhỏ sự kiện mới nhất, liên quan, sự kiện trong tuần..
+
+2. Giao diện 
+- Admin :Giao diện CRUD Quản lý sự kiện, CRUD Quản lý bộ phận, CRUD Quản lý cơ sở, CRUD danh mục quận huyện, tìm kiếm.
+- Người dùng : trang chủ, xem chi tiết sự kiện, tìm kiếm.
+
+Test
+Chức năng đăng nhập : check
+CRUD Danh mục quận huyện : check
+CRUD Quản lý cơ sở : check
+CRUD Quản lý bộ phận : check
+- Create mà không có đường dẫn contentPath thì bị lỗi. Dẫn đến Read List bị lỗi
+- Code chức năng thêm ảnh nhưng ko chạy được
+CRUD Quản lý sự kiện : check
+- Không thông báo lỗi điều kiện được khai báo ở Controller Create thêm ảnh. Lỗi ở ModelState.IsValid
+- Bị lỗi thời gian chỉ nhập được đến dd : 12 và MM: 12
+- Có lúc khúc mắc chỗ ngày tạo sự kiện
+- Edit bị lỗi

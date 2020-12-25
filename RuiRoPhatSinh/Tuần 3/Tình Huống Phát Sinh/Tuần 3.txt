@@ -1,0 +1,7 @@
+Tâm
+- Giao diện Quản lý sự kiện Admin (Xem sự kiện) : hoàn thành nhưng còn phải chỉnh sữa
+- Giao diện còn lại đề ra chưa hoàn thành
+Lý do : bệnh, nhiều môn học, lười, và không phân tích được mức độ giao diện dễ hay khó dẫn đến làm trễ tiến độ công việc đặt ra. Chỉ biết đợi ngày hạn nộp mới làm
+
+Đệ
+- Bài toán một sự kiện không thể nằm trong 2 bảng chưa nghĩ ra lời giải

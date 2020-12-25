@@ -1,0 +1,1 @@
+1. Vấn đề hệ thống : khi nhập một sự kiện thì mã sự kiện có thể được nhập ở 2 loại luôn là trong trường và ngoài trường. Vấn đề giải quyết : thêm thuộc tính loại sự kiện

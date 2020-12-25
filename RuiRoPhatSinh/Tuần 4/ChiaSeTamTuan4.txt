@@ -1,0 +1,24 @@
+1. Layout Quản Lý Sự Kiện Admin
+1.1 Cột
+- Xóa cột ngày tạo sự kiện vì không cần thay vào đó là cột loại sự kiện
+- Cột loại sự kiện : trong trường và ngoài trường
+- Xóa cột tên cơ sở vì nó là thuộc tính riêng của bảng khác
+
+1.2 Chỉnh sửa dữ liệu
+- Cột tên sự kiện : Em nạp dữ liệu 50 ký tự xem có bị lỗi giao diện không
+- Bộ phận là phòng-ban-khoa-viện đó em chỉnh lại dữ liệu dùm anh
+- Thời gian bắt đầu - kết thúc định dạng hệ 12 giờ(12:AM) em chỉnh lại dữ liệu dùm anh
+- Ngày bắt đầu - kết thúc định dạng dd/mm/yyyy em chỉnh lại dữ liệu dùm anh
+
+1.3 Thiết kế lại
+- Cột nội dung sự kiện : dữ liệu đóng area nhìn không được đẹp. Thiết kế lại cho anh
+- Nút xem xóa sửa thiết kế lại để nhìn giống nút hơn
+- Dữ liệu ghi từng hàng thì cũng chẳng mất bao nhiêu thời gian đâu mong em làm lại
+
+1.4 Giao diện
+- Chụp giao diện thì chụp từ đầu đến đuôi nhe em
+- Thanh menu : Quản Lý Sự Kiện (List xuống là xem và tạo sự kiện), Quản lý bộ phận (list xuống là xem và tạo phòng ban), Quản lý cơ sở (list xuống là xem và tạo cơ sở)
+
+1.5
+- Anh có ghi rất chi tiết trong đặc tả em đừng tự thêm thắt hay biến tấu. Không biết chỗ này thiết kế sao cho hợp hệ thống thì hỏi anh
+- Đây là điều em thích làm thì mong em nghiêm túc. Vì 2 tuần mà nhìn giao diện em làm thực sự... Anh sẽ để cô và các bạn khác đánh giá mong em cố gắng hơn nữa.

@@ -1,0 +1,10 @@
+1. Giao diện Tạo Sự Kiện
+- Đầy đủ các thuộc tính
+- Nạp được JS cho 4 thuộc tính thời gian
+- Ràng buộc được Ngày
+- Nạp được JS cho định dạng văn bản
+
+- Chưa làm được ràng buộc Time
+- Chưa làm bắt sự kiện 3 thuộc tính
+- Chưa tạo nút Create
+- Sắp xếp cho gọn gàng

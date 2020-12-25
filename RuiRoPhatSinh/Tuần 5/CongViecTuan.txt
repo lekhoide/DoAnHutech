@@ -1,0 +1,5 @@
+1. Phân tích lại hệ thống
+2. Test dữ liệu trên SQL
+3. Chức năng thêm ảnh
+4. Format thời gian
+5. Tìm hiểu lấy dữ liệu tự động
